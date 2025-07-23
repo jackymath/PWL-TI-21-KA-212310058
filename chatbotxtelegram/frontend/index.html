@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telegram Chatbot Frontend</title>
+</head>
+<body>
+  <div class="bot-setup">
+    <h3>Setup Telegram Bot</h3>
+    <form id="bot-setup-form">
+      <input type="text" id="bot-token" placeholder="Bot Token" />
+      <input type="text" id="chat-id" placeholder="Chat ID" />
+      <button type="submit">Connect</button>
+    </form>
+  </div>
+  <form id="message-form">
+    <input type="text" id="message-input" placeholder="Type message..." />
+    <button type="submit">Send</button>
+  </form>
+  <div id="messages-container"></div>
+  <script src="script.js"></script>
+</body>
+</html>
